@@ -4,3 +4,8 @@ body{
         src: url('Raleway.ttf');
     }
 }
+footer{
+    div-contain{
+        flex-direction: auto;
+    }
+}
