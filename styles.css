@@ -6,6 +6,7 @@ body{
 }
 footer{
     div-contain{
+        display: flex;
         flex-direction: auto;
     }
 }
