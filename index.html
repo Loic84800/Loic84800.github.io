@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Reservia</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <script src="https://kit.fontawesome.com/089bae099a.js" crossorigin="anonymous"></script>
@@ -11,21 +12,21 @@
         <!--HEADER/ Menu Navigation-->
 
         <header>
-            <img src="images/logo/Reservia.svg"/>
+            <img class="headerlogo" src="images/logo/Reservia.svg" alt="Reservia"/>
 <nav>
     <ul>
         <li>
-            <a href="#Hebergements">hébergements</a>
+            <a class="navlink" href="#Hebergements" data-active="true">Hébergements</a>
         </li>
         <li>
-            <a href="#Activites">Activités</a>
+            <a class="navlink" href="#Activites" data-active="false">Activités</a>
         </li>
     </ul>
-    <a href="#">S'inscrire</a>
+    <a class="Signup" href="#">S'inscrire</a>
 </nav>
 <div>
     <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
-    <p>En plein centre-ville ou en pleine nature</p>
+    <p class="HeaderSubtitle">En plein centre-ville ou en pleine nature</p>
 </div>
         </header>
 
@@ -60,7 +61,7 @@
                         <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
                     </div>
                     <h4>Auberge La Cannebière</h4>
-                    <p>Nuit à partir de 25<p2>€</p2></p>
+                    <p>Nuit à partir de <span>25€</span></p>
                     <div>
                         <i class="fas fa-star" id="logo-filter"></i>                        
                         <i class="fas fa-star" id="logo-filter"></i>
@@ -74,7 +75,7 @@
                         <img src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
                     </div>
                     <h4>Hôtel du port</h4>
-                    <p>Nuit à partir de 52<p2>€</p2></p>
+                    <p>Nuit à partir de 52<span>€</span></p>
                     <div>
                         <i class="fas fa-star" id="logo-filter"></i>                        
                         <i class="fas fa-star" id="logo-filter"></i>
@@ -88,7 +89,7 @@
                         <img src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg">
                     </div>
                     <h4>Hôtel Les mouettes</h4>
-                    <p>Nuit à partir de 76<p2>€</p2></p>
+                    <p>Nuit à partir de 76<span>€</span></p>
                     <div>
                         <i class="fas fa-star" id="logo-filter"></i>                        
                         <i class="fas fa-star" id="logo-filter"></i>
@@ -102,7 +103,7 @@
                         <img src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
                     </div>
                     <h4>Hôtel de la mer</h4>
-                    <p>Nuit à partir de 46<p2>€</p2></p>
+                    <p>Nuit à partir de 46<span>€</span></p>
                     <div>
                         <i class="fas fa-star" id="logo-filter"></i>                        
                         <i class="fas fa-star" id="logo-filter"></i>
@@ -116,7 +117,7 @@
                         <img src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
                     </div>
                     <h4>Auberge Le Panier</h4>
-                    <p>Nuit à partir de 23<p2>€</p2></p>
+                    <p>Nuit à partir de<span>23€</span></p>
                     <div>
                         <i class="fas fa-star" id="logo-filter"></i>                        
                         <i class="fas fa-star" id="logo-filter"></i>
@@ -130,7 +131,7 @@
                         <img src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
                     </div>
                     <h4>Hôtel chez Amina</h4>
-                    <p>Nuit à partir de 96<p2>€</p2></p>
+                    <p>Nuit à partir de 96<span>€</span></p>
                     <div>
                         <i class="fas fa-star" id="logo-filter"></i>                        
                         <i class="fas fa-star" id="logo-filter"></i>
@@ -147,7 +148,7 @@
                         <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
                     </div>
                     <h4>Hôtel Le soleil du matin</h4>
-                    <p>Nuit à partir de 128<p2>€</p2></p>
+                    <p>Nuit à partir de 128<span>€</span></p>
                     <div>
                         <i class="fas fa-star" id="logo-filter"></i>                        
                         <i class="fas fa-star" id="logo-filter"></i>
@@ -161,7 +162,7 @@
                         <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg">
                     </div>
                     <h4>Au coeur de l'eau Chambres d'hôtes</h4>
-                    <p>Nuit à partir de 71<p2>€</p2</p>
+                    <p>Nuit à partir de 71<span>€</span></p>
                         <div>
                             <i class="fas fa-star" id="logo-filter"></i>                        
                             <i class="fas fa-star" id="logo-filter"></i>
@@ -175,7 +176,7 @@
                         <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
                     </div>
                     <h4>Hôtel Tout bleu et blanc</h4>
-                    <p>Nuit à partir de 68<p2>€</p2</p>
+                    <p>Nuit à partir de 68<span>€</span></p>
                         <div>
                             <i class="fas fa-star" id="logo-filter"></i>                        
                             <i class="fas fa-star" id="logo-filter"></i>
