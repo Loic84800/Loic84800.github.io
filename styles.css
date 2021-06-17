@@ -27,7 +27,7 @@ h3{
 }
 /*HEADER Menu Navigation*/
 
-header.nav{
+nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
