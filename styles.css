@@ -9,11 +9,28 @@
     font-family: 'Raleway', Arial, Verdana, sans-serif;
 }
 /*General*/
+*{
+    margin: 0;
+    padding: 0;
+}
 
+h2 {
+    font-size: large;
+}
+
+p{
+    font-size: small;
+}
+
+h3{
+    font-weight: bold;
+}
 /*HEADER Menu Navigation*/
 
 /*Recherche et Filtres*/
-
+.fas{
+    color: #0065fc;
+}
 /*Hébergements*/
 
 /*Activités*/
