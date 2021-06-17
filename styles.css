@@ -1,12 +1,21 @@
+/*Téléchargement de la police Raleway*/
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('raleway/Raleway-Black.ttf'),
+}
 
-    @font-face {
-        font-family: 'Raleway';
-        src: url('Raleway.ttf');
-    }
+*{
+    font-family: 'Raleway', Arial, Verdana, sans-serif;
 }
-footer{
-    div-container{
-        display: flex;
-        flex-direction: auto;
-    }
-}
+/*General*/
+
+/*HEADER Menu Navigation*/
+
+/*Recherche et Filtres*/
+
+/*Hébergements*/
+
+/*Activités*/
+
+/*FOOTER*/
