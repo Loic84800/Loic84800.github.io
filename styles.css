@@ -27,6 +27,13 @@ h3{
 }
 /*HEADER Menu Navigation*/
 
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
 /*Recherche et Filtres*/
 .fas{
     color: #0065fc;
