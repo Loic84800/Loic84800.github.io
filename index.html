@@ -13,19 +13,16 @@
 
         <header>
             <img class="headerlogo" src="images/logo/Reservia.svg" alt="Reservia"/>
-<nav>
-    <div class="headerNav">
+<nav class="headerNav">
     <ul>
         <li>
             <a class="navlink" href="#Hebergements" data-active="true">Hébergements</a>
-        </li>
-        <li>
             <a class="navlink" href="#Activites" data-active="false">Activités</a>
         </li>
     </ul>
-    </div>
+</nav> 
     <a class="Signup" href="#">S'inscrire</a>
-</nav>
+
 <div>
     <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
     <p class="HeaderSubtitle">En plein centre-ville ou en pleine nature</p>
@@ -36,12 +33,16 @@
 
         <section id="Recherche">
             <div class="search-zone">
-                <i class="fas fa-map-marker-alt"></i>
-                <i><input type="text" placeholder="Marseille, France"></i>
-                <button input type="button" value="">Rechercher</button>
+                <div class="gps-logo">
+                <i class="fas fa-map-marker-alt fa-lg"></i>
+                </div>
+                <i><input type="text" placeholder="Marseille, France" name="location-search"></i>
+                <button class="recherche">Rechercher</button>
             </div>
-            <div>
+            <div id="filtres-section">
+              <div class="titre_filtres">
                 <h3>Filtres</h3>
+              </div>
             </div>
             <div>    
                 <i class="fas fa-money-bill-wave">Economique</i>
@@ -199,7 +200,7 @@
             <div-container>
                 <a>
                     <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vue de port rempli de bateaux avec la ville en arrière-plan">
-                </a>2
+                </a>
                 <h4>Vieux Port</h4>
             </div-container>
             <div-container>
