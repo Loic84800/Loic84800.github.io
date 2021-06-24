@@ -35,6 +35,11 @@ nav{
     padding: 40px 0px;
 }
 /*Recherche et Filtres*/
+.filter-cell{
+    margin-right: 0.5;
+    font-size: medium;
+    border-radius: 1;
+}
 .fas{
     color: #0065fc;
 }
