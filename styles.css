@@ -28,7 +28,7 @@ h3{
 }
 /*HEADER Menu Navigation*/
 
-.headerNav{
+.headerNav, .Signup{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
