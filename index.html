@@ -16,8 +16,8 @@
 <nav class="headerNav">
     <ul>
         <li>
-            <a class="navlink" href="#Hebergements" data-active="true">Hébergements</a>
-            <a class="navlink" href="#Activites" data-active="false">Activités</a>
+            <a class="navlink" href="#Hebergements" title="Hébergements liés à votre recherche" data-active="true">Hébergements</a>
+            <a class="navlink" href="#Activites" title="Activités liées à votre recherche" data-active="false">Activités</a>
         </li>
     </ul>
 </nav> 
@@ -32,23 +32,24 @@
         <!--PARTIE Recherche et Filtres-->
 
         <section id="Recherche">
-            <div class="search-zone">
+            <div class="searchbar">
                 <div class="gps-logo">
                 <i class="fas fa-map-marker-alt fa-lg"></i>
-                </div>
-                <i><input type="text" placeholder="Marseille, France" name="location-search"></i>
+            </div>
+                <input type="text" placeholder="Marseille, France" name="location-search">
                 <button class="recherche">Rechercher</button>
             </div>
-            <div id="filtres-section">
+
+            <div class="filters-section">
               <div class="titre_filtres">
                 <h3>Filtres</h3>
               </div>
-            </div>
-            <div>    
-                <i class="fas fa-money-bill-wave">Economique</i>
+                <div class="filter-cell">    
+                <i class="fas fa-money-bill-wave fa-fw"></i>Economique
                 <button type="span"><i class="fas fa-child"></i>Familial</button>
                 <button type="span"><i class="fas fa-heart"></i>Romantique</button>
                 <button type="span"><i class="fas fa-dog"></i>Animaux autorisés</button>
+            </div>
             </div>
         </section>
 
