@@ -52,3 +52,13 @@ nav{
 /*Activités*/
 
 /*FOOTER*/
+.footer{
+    display: grid;
+    background-color: #F2F2F2;
+    padding: 20px 3vw 0px 3vw;
+    justify-items: start;
+    margin: 0px;
+}
+
+
+
