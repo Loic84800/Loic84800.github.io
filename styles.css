@@ -28,15 +28,18 @@ h3{
 }
 /*HEADER Menu Navigation*/
 
-nav{
+.headerNav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 40px 0px;
 }
+.Signup{
+
+}
 /*Recherche et Filtres*/
-.filter-cell{
+.filters-section{
     display: flex;
     flex-direction: row;
     margin-right: 0.5;
