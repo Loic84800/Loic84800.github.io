@@ -42,6 +42,7 @@ nav{
 }
 .fas{
     color: #0065fc;
+    border-radius: inherit;
 }
 /*Hébergements*/
 
