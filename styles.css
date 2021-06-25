@@ -61,7 +61,11 @@ h3{
 }
 .fas{
     color: #0065fc;
+    border: lightblue;
     border-radius: inherit;
+}
+.title{
+    box-sizing: border-box;
 }
 /*Hébergements*/
 .hebergementetpop{
