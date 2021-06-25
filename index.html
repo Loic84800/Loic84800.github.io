@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     </head>
     <body>
-      <main>
+      
         <!--HEADER/ Menu Navigation-->
 
         <header>
@@ -24,14 +24,14 @@
 </nav> 
     
 
-<div>
+<div class="information">
     <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
     <p class="HeaderSubtitle">En plein centre-ville ou en pleine nature</p>
 </div>
-        </header>
-
-        <!--PARTIE Recherche et Filtres-->
-
+        
+        <!--HEADER/ Recherche et Filtres-->
+        
+      <main class="search-filters">
         <section id="Recherche">
             <div class="searchbar">
                 <div class="gps-logo">
@@ -41,11 +41,9 @@
                 <button class="recherche">Rechercher</button>
             </div>
 
-            <div class="filters-section">
-              <div class="titre_filtres">
-                <h3>Filtres</h3>
-              </div>
-                <div class="filter-cell">
+            <div class="filtres">
+                <h3 class="titre_filtres">Filtres</h3>
+                    <div class="filter-cell">
                       <i class="fas fa-money-bill-wave"></i><a href="#">Economique</a>  
                </div>
                <div class="filter-cell">      
@@ -60,13 +58,17 @@
             </div>
         </section>
 
-        <!--PARTIE Hébergements-->
-
-        <section id="Hebergements">
+                
             <div class="InfoResultSearch">
                  <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
-            <div-container>
+        </header>
+
+        <!--PARTIE Hébergements-->
+
+            
+            <main class="hebergementetpop">
+           <section id="Hebergements">     
                 <h2>Hébergements à Marseille</h2>
                 <a>
                     <div>
@@ -75,11 +77,11 @@
                     <h4>Auberge La Cannebière</h4>
                     <p>Nuit à partir de <span>25€</span></p>
                     <div class="hebergement_notation">
-                        <i class="fas fa-star"></i>                        
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star grey-star"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>                        
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                        <i class="fas fa-star grey-star" aria-hidden="true"></i>
                     </div>    
                 </a>
                 <a>
@@ -89,8 +91,8 @@
                     <h4>Hôtel du port</h4>
                     <p>Nuit à partir de 52<span>€</span></p>
                     <div class="hebergement_notation">
-                        <i class="fas fa-star"></i>                        
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star" aria-hidden="true"></i>                        
+                        <i class="fas fa-star" aria-hidden="true"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -153,8 +155,8 @@
                     </div>    
                 </a>
                 <div class="hebergement_plus">Afficher plus</div>
-            </div-container>
-            <div-container>
+           </section>
+            <section id="populaires">
                 <h2>Les plus populaires<i class="fas fa-chart-line"></i></h2>
                 <a>
                     <div>
@@ -198,8 +200,7 @@
                             <i class="fas fa-star grey-star"></i>
                         </div>    
                 </a>
-            </div-container>
-        </section>
+            </section>
 
         <!--PARTIE Activités-->
 
