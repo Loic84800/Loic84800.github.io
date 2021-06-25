@@ -41,7 +41,7 @@ h3{
 
 
 /*Recherche et Filtres*/
-.filter-cell{
+.filtres{
     display: flex;
     flex-direction: row;
     margin-right: 0.5;
