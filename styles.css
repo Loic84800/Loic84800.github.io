@@ -55,14 +55,19 @@ h3{
     border: 2px #d9d9d9;
 }
 .filtre-img{
+    margin: 0.5rem 0;
+    margin-right: 1.5rem;
     padding: 15px 15px;
     border-radius: 50%;
+    cursor: pointer;
     background-color: #d9d9d9;
+    font-weight: 800;
+    overflow: hidden;
 }
 .fas{
     color: #0065fc;
-    border: lightblue;
-    border-radius: inherit;
+    border: 2px solid lightblue;
+    border-radius: 2rem;
 }
 .title{
     box-sizing: border-box;
