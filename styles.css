@@ -53,7 +53,11 @@ h3{
     border-radius: inherit;
 }
 /*Hébergements*/
-
+.hebergementetpop{
+    margin: 25px 0 50px;
+    display: flex;
+    flex-direction: column;
+}
 /*Activités*/
 
 /*FOOTER*/
