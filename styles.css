@@ -33,7 +33,7 @@ nav ul li{
     margin-right: 50px;
 }
 
-nav ul li :hover{
+.navlink :hover{
     text-decoration: none;
     color: #0065fc;
 
