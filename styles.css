@@ -27,7 +27,7 @@ h3{
     font-weight: bold;
 }
 /*HEADER Menu Navigation*/
-nav ul li{
+.headerNav, .Signup {
     list-style-type: none;
     float: left;
     margin-right: 50px;
