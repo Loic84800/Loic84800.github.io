@@ -108,8 +108,11 @@ nav{
 .hotel{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     border-radius: 20px;
-    height: 100%;
+    height: auto;
+    margin: 0.5rem;
 }
 
 
