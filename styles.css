@@ -32,9 +32,9 @@ div, section{
 
 /*HEADER Menu Navigation*/
 nav{
-    display: block;
+    display: flex;
 }
-.navlink:hover{
+#lien1:hover{
     text-decoration: none;
     color: #0065fc;
 
@@ -48,8 +48,10 @@ nav{
     margin-right: 50px;
     padding: 40px 0px;
 }
-.navlink, .Signup{
-    padding: 3rem 3rem 0.8rem 3rem;
+nav a, .Signup{
+    padding: 16px;
+    text-decoration: none;
+    margin-left: 50px;
 }
 .information{
     
