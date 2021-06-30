@@ -88,12 +88,10 @@ nav{
 }
 /*Hébergements*/
 .hebergementetpop{
-    margin: 25px 0 50px;
+    margin-top: 10px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: none;
 }
 #Hebergements{
