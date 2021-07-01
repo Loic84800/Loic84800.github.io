@@ -50,12 +50,12 @@ nav{
 }
 
 }
-.headerNav,{
+.headerNav ul,{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
-    list-style-type: none;
+    align-items: flex-start;
+    list-style: none;
     margin-right: 50px;
     padding: 40px 0px;
 }
