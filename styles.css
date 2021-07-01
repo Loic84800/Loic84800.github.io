@@ -143,13 +143,20 @@ nav a, .Signup{
 .footer{
     display: flex;
     flex-direction: row;
+    box-sizing: border-box;
     background-color: #F2F2F2;
     padding: 20px 3vw 0px 3vw;
     justify-items: start;
     margin: 0px;
+    position: relative;
+    flex-wrap: wrap;
 }
 .menu_footer{
     display: block;
+    width: 30%;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 
