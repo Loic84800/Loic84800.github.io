@@ -31,6 +31,13 @@ div, section{
 }
 
 /*HEADER Menu Navigation*/
+header{
+    display: flex;
+    height: 5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 nav{
     display: flex;
 }
@@ -38,9 +45,6 @@ nav{
     color: gray;
     border-top: 3px solid #0065fc;
 }
-.lien1:hover{
-    text-decoration: none;
-    color: #0065fc;
 
 }
 .headerNav,{
