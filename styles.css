@@ -34,12 +34,16 @@ div, section{
 nav{
     display: flex;
 }
-#lien1:hover{
+.headerNav .lien1 #active{
+    color: gray;
+    border-top: 3px solid #0065fc;
+}
+.lien1:hover{
     text-decoration: none;
     color: #0065fc;
 
 }
-.headerNav, .Signup{
+.headerNav,{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
