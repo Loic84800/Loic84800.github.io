@@ -77,6 +77,14 @@ nav a, .Signup{
 }
 
 /*Recherche et Filtres*/
+.searchbar{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    height: 2rem;
+    width: 25rem;
+}
 .filtres{
     display: flex;
     flex-direction: row;
