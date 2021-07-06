@@ -156,7 +156,7 @@ article{
     width: 150px;
     max-height: 150px;
 }
-#populaires .hotelpop{
+aside .hotelpop{
     text-decoration: none;
     color: black;
     display: flex;
