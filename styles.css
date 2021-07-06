@@ -192,7 +192,16 @@ aside{
     margin: 0;
 }
 /*Activités*/
-#Activites{
+aside2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    margin-bottom: 4rem;
+}
+aside2 #Activites{
     display: flex;
     flex-direction: row;
     align-items: center;
