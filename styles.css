@@ -97,12 +97,12 @@ nav a, .Signup{
     background: #ddd;
     border: none;
     cursor: pointer;
-    width: 120px;
+    width: 7%;
     height: 100%;
 }
 .searchbar input{
     width: 120px;
-    height: 102%;
+    height: 75%;
     padding: 6px;
     margin-right: 0;
     margin-top: 8px;
