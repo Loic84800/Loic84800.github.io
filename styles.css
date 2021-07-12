@@ -91,9 +91,9 @@ nav a, .Signup{
     margin-top: 0.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
+    padding-left: 0.9rem;
     border-radius: 10px 0 0 10px;
-    font-size: 15px;
+    font-size: 17px;
     background: #ddd;
     border: none;
     cursor: pointer;
@@ -106,7 +106,7 @@ nav a, .Signup{
     padding: 6px;
     margin-right: 0;
     margin-top: 8px;
-    font-size: 15px;
+    font-size: 17px;
     border-top: solid #ddd 1px;
     border-left: none;
     border-right: none;
@@ -117,7 +117,7 @@ nav a, .Signup{
     position: absolute;
     color: #fff;
     background: #0065fc;
-    font-size: 15px;
+    font-size: 17px;
     width: 120px;
     height: 3rem;
     margin-top: 8px;
