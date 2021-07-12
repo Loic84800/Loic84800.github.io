@@ -137,9 +137,19 @@ nav a, .Signup{
 }
 .filter-cell{
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
     border-radius: 2em;
     border: 2px #d9d9d9;
+    margin-left: 1.5rem;
+}
+.filter-cell i{
+    position: absolute;
+    background-color: #deebff;
+    color: #0065fc;
+    border-radius: 100vh;
+    padding-top: 10px;
 }
 .filtre-img{
     margin: 0.5rem 0;
@@ -158,6 +168,13 @@ nav a, .Signup{
 .title{
     box-sizing: border-box;
 }
+.InfoResultSearch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 /*Hébergements*/
 article{
     display: flex;
