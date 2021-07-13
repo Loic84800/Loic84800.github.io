@@ -239,6 +239,7 @@ article{
     width: fit-content;
 }
 #populaires{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
