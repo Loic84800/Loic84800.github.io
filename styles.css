@@ -51,7 +51,7 @@ header{
     justify-content: space-between;
 }
 nav{
-    display: flex;
+    display: block;
 }
 .headerNav .lien1 #active{
     color: gray;
@@ -63,9 +63,11 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    vertical-align: top;
     align-items: flex-start;
     list-style: none;
-    margin-right: 50px;
+    width: 30rem;
+    margin-bottom:  1rem;
     padding: 40px 0px;
 }
 nav a, .Signup{
