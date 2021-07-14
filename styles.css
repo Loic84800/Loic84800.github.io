@@ -51,7 +51,7 @@ header{
     justify-content: space-between;
 }
 nav{
-    display: block;
+    display: flex;
 }
 .headerNav .lien1 #active{
     color: gray;
