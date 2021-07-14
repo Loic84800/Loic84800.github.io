@@ -76,11 +76,11 @@ nav{
     width: 8rem;
     padding-top: 2rem;
 }
-nav a, .Signup{
-    padding: 16px;
-    text-decoration: none;
-    margin-left: 50px;
+header .Signup{
+    font-weight: bold;
+    color: #0065fc;
 }
+   
 .information{
     
 }
