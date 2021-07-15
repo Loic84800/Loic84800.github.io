@@ -289,10 +289,27 @@ aside{
     width: auto;
     margin-bottom: 4rem;
 }
+#Activites .groupe2{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 80%;
+}
 #Activites .activitescard{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+#Activites .groupe2 .col1{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    height: 500px;
+    width: 20%;
+    border-radius: 15px;
+    margin: 10px 0 10px 0;
+    color: black;
+    box-shadow: 3px 3px 6px;
 }   
 /*FOOTER*/
 .footer{
