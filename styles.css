@@ -80,11 +80,8 @@ header .Signup{
     color: #0065fc;
 }
    
-.information{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+.information p{
+    font-weight: normal;
 }
 
 /*Recherche et Filtres*/
