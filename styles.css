@@ -111,7 +111,7 @@ header .Signup{
     height: 3rem;
 }
 .searchbar input{
-    width: 120px;
+    width: 75%;
     height: 3rem;
     padding: 6px;
     margin-right: 0;
