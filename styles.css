@@ -292,8 +292,9 @@ aside{
     box-sizing: border-box;
     background-color: #F2F2F2;
     padding: 20px 3vw 0px 3vw;
-    justify-items: start;
-    margin: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: auto;
     position: relative;
     flex-wrap: wrap;
 }
