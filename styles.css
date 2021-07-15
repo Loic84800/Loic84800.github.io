@@ -310,7 +310,29 @@ aside{
     margin: 10px 0 10px 0;
     color: black;
     box-shadow: 3px 3px 6px;
-}   
+} 
+
+#Activites .groupe2 .col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 500px;
+    width: 20%;
+    border-radius: 15px;
+    margin: 10px 40px 10px 40px;
+}
+
+#Activites .groupe2 .col4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 500px;
+    width: 20%;
+    border-radius: 15px;
+    margin: 10px 0 10px 40px;
+}
 /*FOOTER*/
 .footer{
     display: flex;
