@@ -58,7 +58,7 @@ nav{
     border-top: 3px solid #0065fc;
 }
 
-}
+
 .headerNav ul{
     display: flex;
     flex-direction: row;
@@ -82,7 +82,10 @@ header .Signup{
 }
    
 .information{
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 /*Recherche et Filtres*/
@@ -204,13 +207,8 @@ article{
     height: auto;
     margin-bottom: 3rem;
 }
-.hebergementetpop{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: none;
-}
+
+    
 #Hebergements{
     display: flex;
     flex-direction: column;
