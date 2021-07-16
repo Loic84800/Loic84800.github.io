@@ -187,6 +187,7 @@ header .Signup{
     color: #0065fc;
     border: 2px solid lightblue;
     border-radius: 2rem;
+    align-items: center;
 }
 .title{
     box-sizing: border-box;
