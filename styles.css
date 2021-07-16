@@ -141,9 +141,6 @@ header .Signup{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    margin-right: 0.5;
-    font-size: medium;
-    border-radius: 1;
 }
 .filter-cell{
     display: flex;
