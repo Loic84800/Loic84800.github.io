@@ -169,7 +169,7 @@ header .Signup{
     border-radius: 100vh;
     padding-top: 10px;
 }
-.filter-cell input{
+.filter-cell span{
     height: 2rem;
     width: 10rem;
     text-align: left;
