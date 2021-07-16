@@ -198,6 +198,19 @@ header .Signup{
     align-items: center;
     justify-content: flex-start;
 }
+.InfoResultSearch a{
+    margin: 0 0.5rem 0 0.5rem;
+    text-decoration: none;
+    border: none;
+}
+.InfoResultSearch a i{
+    color: #0065fc;
+    border: solid #F2F2F2 1px;
+    text-align: center;
+    border-radius: 100vh;
+    height: 1.5rem;
+    width: 1.5rem;
+}
 
 /*Hébergements*/
 article{
