@@ -256,7 +256,7 @@ article .groupe .hotel{
     width: 150px;
     max-height: 150px;
 }
-#populaires .hotelpop{
+article2 .hotelpop{
     text-decoration: none;
     color: black;
     display: flex;
