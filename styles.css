@@ -156,6 +156,8 @@ header .Signup{
     position: absolute;
     background-color: #deebff;
     color: #0065fc;
+    width: 2rem;
+    height:2.5rem;
     border-radius: 100vh;
     padding-top: 10px;
 }
