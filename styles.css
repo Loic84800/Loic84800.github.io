@@ -360,7 +360,7 @@ article2{
     margin: 10px 0 10px 40px;
 }
 /*FOOTER*/
-.footer{
+footer{
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
