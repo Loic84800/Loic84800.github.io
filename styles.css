@@ -321,6 +321,13 @@ article2{
     width: fit-content;
     height: 80%;
 }
+
+#Activites .groupe2 h2{
+    display: inline-block;
+    align-items: flex-start;
+    width: 100%;
+}
+
 #Activites .activitescard{
     display: flex;
     flex-direction: row;
@@ -336,6 +343,14 @@ article2{
     margin: 10px 0 10px 0;
     color: black;
     box-shadow: 3px 3px 6px;
+}
+.groupe2 .col1 img{
+    border-radius: 10px 10px 0 0;
+    height: 85%;
+    object-fit: cover;
+}
+.groupe2 .col1 h4{
+    padding-left: 1rem;
 } 
 
 #Activites .groupe2 .col2{
@@ -347,6 +362,22 @@ article2{
     width: 20%;
     border-radius: 15px;
     margin: 10px 40px 10px 40px;
+}
+.col2 .img1, .col4 .img2{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    height: 55%;
+}
+.col2 .img2, .col4 .img1{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    height: 35%;
 }
 
 #Activites .groupe2 .col4{
