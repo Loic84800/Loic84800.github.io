@@ -74,7 +74,7 @@ nav{
     display: flex;
     justify-content: flex-end;
     vertical-align: top;
-    align-items: flex-start;
+    align-items: stretch;
     list-style: none;
     width: 30rem;
     height: 100%;
