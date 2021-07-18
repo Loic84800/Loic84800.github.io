@@ -170,10 +170,10 @@ header .Signup{
     border-radius: 100vh;
     padding-top: 10px;
 }
-.filter-cell span{
+.filter-cell .title{
     height: 2rem;
     width: 10rem;
-    text-align: left;
+    text-align: center;
     padding-left: 3rem;
     margin-left: 4px;
     border: 1px solid #F2F2F2;
