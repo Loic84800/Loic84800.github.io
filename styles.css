@@ -53,6 +53,10 @@ header, section, article{
     margin-left: 1rem;
     margin-right: 1rem;
 }
+footer{
+    max-width: 1170px;
+    margin: auto;
+}
 /*HEADER Menu Navigation*/
 header{
     display: flex;
@@ -420,23 +424,25 @@ aside #populaires{
 }
 /*FOOTER*/
 footer{
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    background-color: #F2F2F2;
-    padding: 20px 3vw 0px 3vw;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: auto;
-    position: relative;
-    flex-wrap: wrap;
+    background: #F2F2F2;
+    padding-top: 40px;
+    margin-top: 40px;
 }
 .menu_footer{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 30%;
     padding-left: 2rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
-
+footer ul{
+    list-style-type: none;
+    width: 340px;
+    margin-bottom: 20px;
+}
+footer li{
+    line-height: 1.5rem;
+}
 
