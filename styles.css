@@ -329,13 +329,7 @@ aside #populaires{
 }
 /*Activités*/
 #Activites{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: auto;
-    width: auto;
-    margin-bottom: 4rem;
+    margin-top: 40px;
 }
 #Activites .groupe2{
     display: flex;
