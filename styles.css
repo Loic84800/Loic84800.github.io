@@ -255,6 +255,12 @@ article .groupe .hotel{
     margin-bottom: 20px;
     border-radius: 10px;
 }
+#Hebergements img{
+    height: 100%;
+    width: 190px;
+    max-height: 90px;
+    border-radius: 10px 10px 0 0;
+}
 #populaires img{
     object-fit: fill;
     border-radius: 10px 0 0 10px;
