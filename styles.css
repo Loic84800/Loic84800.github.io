@@ -250,13 +250,13 @@ article .groupe .hotel{
     padding: 5px;
     box-shadow: 3px 3px 6px;
 }
-article2 img{
+#populaires img{
     object-fit: fill;
     border-radius: 10px 0 0 10px;
     width: 150px;
     max-height: 150px;
 }
-article2 .hotelpop{
+#populaires .hotelpop{
     text-decoration: none;
     color: black;
     display: flex;
@@ -268,7 +268,7 @@ article2 .hotelpop{
     height: 100px;
     width: fit-content;
 }
-article2 #populaires{
+aside #populaires{
     float: right;
     box-sizing: border-box;
     display: flex;
@@ -296,12 +296,10 @@ article2 #populaires{
     margin: 0;
 }
 #populaires .poptitle{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    display: inline-block;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 
