@@ -225,12 +225,11 @@ article{
 }
 .groupe{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: auto;
-    margin: 0.7rem;
+    margin: auto;
 }
     
 #Hebergements{
