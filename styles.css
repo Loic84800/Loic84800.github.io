@@ -251,6 +251,10 @@ article .groupe .hotel{
     padding: 5px;
     box-shadow: 3px 3px 6px;
 }
+.hotel{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
 #populaires img{
     object-fit: fill;
     border-radius: 10px 0 0 10px;
