@@ -307,7 +307,10 @@ aside #populaires{
     justify-content: space-between;
     padding-right: 15px;
 }
-
+.details h4{
+    margin-top: 5px;
+    font-size: 00.9rem;
+}
 /*Activités*/
 #Activites{
     display: flex;
