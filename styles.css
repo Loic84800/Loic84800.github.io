@@ -36,7 +36,9 @@ h2 {
     font-size: large;
     margin-bottom: 20px;
 }
-
+a{
+    text-decoration: none;
+}
 p{
     font-size: small;
 }
