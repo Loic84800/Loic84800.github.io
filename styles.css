@@ -122,8 +122,8 @@ header .Signup{
     background: #ddd;
     border: none;
     cursor: pointer;
-    width: 7%;
-    height: 3rem;
+    width: 9%;
+    height: 100%;
 }
 .searchbar input{
     width: 75%;
