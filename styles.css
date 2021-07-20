@@ -271,7 +271,7 @@ article .groupe .hotel{
 #populaires img{
     object-fit: fill;
     border-radius: 10px 0 0 10px;
-    width: 80%;
+    width: 66%;
     max-height: 150px;
 }
 #populaires .hotelpop{
