@@ -436,7 +436,7 @@ footer{
 }
 footer ul{
     list-style-type: none;
-    width: 340px;
+    width: 80%;
     margin-bottom: 20px;
 }
 footer li{
