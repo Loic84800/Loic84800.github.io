@@ -427,8 +427,7 @@ footer{
 }
 .menu_footer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
     padding-left: 2rem;
