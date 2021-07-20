@@ -429,7 +429,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 30%;
+    width: 50%;
     padding-left: 2rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
