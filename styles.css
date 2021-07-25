@@ -425,12 +425,10 @@ footer{
 }
 .menu_footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    padding-left: 2rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    
 }
 footer ul{
     list-style-type: none;
