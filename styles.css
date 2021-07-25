@@ -115,7 +115,7 @@ header .Signup{
     float: left;
     margin-top: 0.5rem;
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     padding-left: 0.9rem;
     border-radius: 10px 0 0 10px;
     font-size: 17px;
@@ -429,7 +429,7 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     padding-left: 0rem;
-    
+
 }
 footer ul{
     list-style-type: none;
