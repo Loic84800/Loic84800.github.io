@@ -249,7 +249,7 @@ article .groupe .hotel{
     display: block;
     flex-direction: row;
     background: #fff;
-    align-items: center;
+    align-items: baseline;
     border-radius: 10px;
     height: fit-content;
     margin: 10px;
