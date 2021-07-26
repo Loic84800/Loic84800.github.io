@@ -231,10 +231,12 @@ article{
 }
 .groupe{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin: auto;
+    height: auto;
+    margin: 0.5rem;
 }
     
 #Hebergements{
