@@ -200,6 +200,7 @@ header .Signup{
 }
 .title{
     box-sizing: border-box;
+    display: flex;
     align-content: center;
     height: auto;
     width: auto;
