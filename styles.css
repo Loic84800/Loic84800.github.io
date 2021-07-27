@@ -200,6 +200,10 @@ header .Signup{
 }
 .title{
     box-sizing: border-box;
+    align-content: center;
+    height: auto;
+    width: auto;
+    margin: auto 0.5rem;
 }
 .InfoResultSearch{
     display: flex;
