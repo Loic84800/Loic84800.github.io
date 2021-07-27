@@ -427,8 +427,9 @@ footer{
     padding-top: 40px;
     margin-top: 40px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-starts;
+    justify-content: flex-start;
 }
 .menu_footer{
     display: flex;
