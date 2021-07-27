@@ -369,11 +369,7 @@ aside #populaires{
     color: black;
     box-shadow: 3px 3px 6px;
 }
-.groupe2 .col2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
 .col1{
     margin-bottom: 20px;
     border-radius: 10px;
@@ -405,6 +401,7 @@ aside #populaires{
     border-radius: 10px;
     height: 55%;
 }
+
 .col2 .img2, .col4 .img1{
     display: flex;
     flex-direction: column;
@@ -429,6 +426,9 @@ footer{
     background: #F2F2F2;
     padding-top: 40px;
     margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-starts;
 }
 .menu_footer{
     display: flex;
