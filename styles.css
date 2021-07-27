@@ -225,6 +225,14 @@ header .Signup{
     width: 1.5rem;
 }
 
+.container{
+    box-sizing: border-box;
+    background-color: white;
+    width: 100;
+    height: auto;
+    margin: 0px auto;
+    padding: 0 1.5rem;
+}
 /*Hébergements*/
 article{
     display: flex;
