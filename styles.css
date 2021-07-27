@@ -435,7 +435,7 @@ footer{
     justify-content: flex-start;
     flex-wrap: wrap;
     width: 100%;
-    padding-left: 0rem;
+    padding-left: 1rem;
 
 }
 footer ul{
