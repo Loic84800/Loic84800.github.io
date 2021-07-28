@@ -441,7 +441,7 @@ footer{
     padding-top: 40px;
     margin-top: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
