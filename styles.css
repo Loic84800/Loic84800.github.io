@@ -455,6 +455,8 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-left: 40px;
+
 }
 footer ul{
     list-style-type: none;
