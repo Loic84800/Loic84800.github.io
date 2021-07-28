@@ -57,6 +57,7 @@ header, section, article{
     margin-right: 1rem;
 }
 footer{
+    width: auto;
     max-width: 100%;
     margin: auto;
 }
