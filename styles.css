@@ -401,6 +401,7 @@ aside #populaires{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: stretch;
     height: 500px;
     width: 20%;
     border-radius: 15px;
