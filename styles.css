@@ -157,6 +157,7 @@ header .Signup{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    width: auto;
 }
 .filter-cell{
     display: flex;
