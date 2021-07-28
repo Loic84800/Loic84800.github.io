@@ -64,6 +64,7 @@ footer{
 header{
     display: flex;
     height: 6rem;
+    width: auto;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
